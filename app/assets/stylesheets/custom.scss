@@ -1,0 +1,71 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* universal */
+
+body {
+  padding-top: 60px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+
+
+
+/* 親要素の中央寄せと余白の調整 */
+.container {
+	margin-top: 20px;
+	text-align: left;  /* 左寄せにする */
+  }
+  
+  /* 見出し h1 のスタイル */
+  h1 {
+	text-align: center;  /* 中央寄せ */
+	margin-bottom: 20px; /* 下に余白を追加 */
+  }
+  
+  /* コンテンツ部分のスタイル */
+  p {
+	
+	font-size: 3.5rem;
+	line-height: 1.6; /* 行間を広げる */
+	margin-bottom: 15px; /* 各段落の間に余白を追加 */
+  }
+
+  .list-group-item {
+	margin-bottom: 15px; /* 各段落の間に余白を追加 */
+  }
+  
+  /* 各ボタンのスタイル */
+  .btn {
+	margin-right: 10px; /* ボタン間に余白を追加 */
+  }
+
+  .btn-primary {
+	margin-bottom: 20px; /* ボタンの下に余白を追加 */
+  }
+  
+  /* 強調表示（strong） */
+  strong {
+	font-weight: bold; /* 太字 */
+  }
+  
+  /* ページ全体のフォントを統一 */
+  body {
+	font-family: 'Arial', sans-serif; /* フォント指定 */
+  }
+  

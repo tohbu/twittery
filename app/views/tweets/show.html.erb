@@ -1,0 +1,11 @@
+<h1>Content menu</h1>
+
+<p><strong>content:</strong> <%= @tweet.content %></p>
+
+<p><strong>Time:</strong> <%= @tweet.created_at.strftime("%Y:%m:%d  %H:%M") %></p>
+
+<%= link_to 'Edit', edit_tweet_path(@tweet), class: "btn btn-warning" %>
+<%= link_to 'Delete', tweet_path(@tweet), method: :delete, data: { confirm: 'ok？' }, class: "btn btn-danger" %>
+<%= link_to 'Home', tweets_path, class: "btn btn-info" %>
+
+

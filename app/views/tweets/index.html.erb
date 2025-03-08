@@ -1,0 +1,12 @@
+<!-- app/views/tweets/index.html.erb -->
+<h1 class="text-center">Tweets</h1>
+
+<%= link_to 'NEW Tweet', new_tweet_path, class: "btn btn-primary mb-3" %>
+
+<div class="list-group">
+  <% @tweets.each do |tweet| %>
+    <a href="<%= tweet_path(tweet) %>" class="list-group-item list-group-item-action">
+      <%= tweet.content %>
+    </a>
+  <% end %>
+</div>
