@@ -1,24 +1,5 @@
-# README
+ツイートアプリの作成
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![スクリーンショット 2025-03-08 172711](https://github.com/user-attachments/assets/7e7abe4c-3221-48ff-8071-377c1891529d)
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
